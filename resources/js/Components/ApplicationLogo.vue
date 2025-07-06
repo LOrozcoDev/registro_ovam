@@ -1,3 +1,3 @@
 <template>
-    <img src="" alt="">
+    <img :src="`storage/logos/logo_ovam.jpg`" alt="">
 </template>

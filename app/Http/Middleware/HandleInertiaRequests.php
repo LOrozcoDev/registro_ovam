@@ -4,6 +4,7 @@ namespace App\Http\Middleware;
 
 use Illuminate\Http\Request;
 use Inertia\Middleware;
+use App\Services\MenuBuilder;
 
 class HandleInertiaRequests extends Middleware
 {
@@ -34,6 +35,9 @@ class HandleInertiaRequests extends Middleware
             'auth' => [
                 'user' => $request->user(),
             ],
+            'menu' => fn() => $request->user()
+                ? MenuBuilder::forUser($request->user())
+                : [],
         ];
     }
 }
