@@ -70,7 +70,6 @@ const menuItems = usePage().props.menu;
                                             </button>
                                         </span>
                                     </template>
-
                                     <template #content>
                                         <DropdownLink
                                             :href="route('profile.edit')"
