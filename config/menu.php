@@ -7,10 +7,16 @@ return [
             'label' => 'Inicio',
             'route' => 'dashboard',
             'icon'  => 'home',
-            'roles' => ['Admin', 'Instructor', 'Student'],
+            'roles' => ['Instructor', 'Student'],
+        ],
+        [
+            'label' => 'Inicio',
+            'route' => 'admin.dashboard',
+            'icon'  => 'home',
+            'roles' => ['Admin'],
         ],
 
-        [
+        /*[
             'label' => 'Usuarios',
             'route' => 'users.index',
             'icon'  => 'users',
@@ -49,6 +55,6 @@ return [
             'route' => 'progress.index',
             'icon'  => 'chart-bar',
             'roles' => ['Student'],
-        ],
+        ],*/
     ]
 ];

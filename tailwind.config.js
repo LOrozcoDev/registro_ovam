@@ -22,6 +22,7 @@ export default {
                 "glass-light": "0 4px 6px rgba(0, 0, 0, 0.1)",
                 "glass-dark": " 0 4px 6px rgba(255, 255, 255, 0.1)",
             },
+            backgroundOpacity: ['active']
         },
         colors: {
             ...colors,
