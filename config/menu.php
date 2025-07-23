@@ -15,6 +15,12 @@ return [
             'icon'  => 'home',
             'roles' => ['Admin'],
         ],
+        [
+            'label' => 'Usuarios',
+            'route' => 'admin.users.index',
+            'icon'  => 'user',
+            'roles' => ['Admin'],
+        ],
 
         /*[
             'label' => 'Usuarios',

@@ -10,7 +10,7 @@ import OffCanvasNav from '@/Components/Admin/OffCanvasNav.vue';
     <LayoutTopBar />
     <OffCanvasNav />
     <main
-        class="p-4 sm:ml-64 min-h-screen dark:bg-gray-300 bg-[url('storage/res/martials.png')] bg-fixed bg-no-repeat bg-bottom-right backdrop-opacity-10">
+        class="p-4 sm:ml-64 min-h-screen dark:bg-gray-300 bg-[url('/storage/res/martials_xs.png')]  bg-no-repeat bg-fixed bg-right-bottom backdrop-opacity-10">
         <slot />
     </main>
 </template>

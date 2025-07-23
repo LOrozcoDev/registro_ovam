@@ -39,7 +39,7 @@ import DropdownLink from '@/Components/DropdownLink.vue';
                                         class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600">
                                         <span class="sr-only">Open user menu</span>
                                         <!-- Profile Image -->
-                                        <img class="w-8 h-8 rounded-full" src="storage/logos/logo-ovam.png"
+                                        <img class="w-8 h-8 rounded-full" src="/storage/logos/logo-ovam.png"
                                             alt="user photo">
                                         <!-- Profile Image -->
                                     </button>
